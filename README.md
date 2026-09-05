@@ -1,73 +1,19 @@
-# React + TypeScript + Vite
+# AuraChat AI — Generative UI Mobile/Web Ecosystem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A next-generation real-time messaging application featuring dynamic **Generative UI** and comprehensive conversational sentiment intelligence.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
+👉 **[Click Here to View Live Dashboard](https://netlify.app)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack
+- **Frontend Framework:** React (Vite Ecosystem)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS (Glassmorphism & Neon Shadows)
+- **Design System:** Tailored Material Design 3 UI Elements
+- **Analytics Ingestion:** Dynamic charting with gradient fill mapping
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 💡 Key Features
+- **Generative UI Engine:** Dynamic interface components adjusting based on conversational contexts.
+- **Advanced Insights Hub:** Live-ticking sentiment graphs tracing text variables instantly.
+- **Enterprise Workspace:** Segmented channels (`#research-lab`, `#product-sprint`) featuring crisp glassmorphism blur layers.
+- **Scalable Architecture:** Optimized resource rendering with clean component abstraction.
