@@ -2,8 +2,6 @@
 
 A next-generation real-time messaging application featuring dynamic **Generative UI** and comprehensive conversational sentiment intelligence.
 
-## 🚀 Live Demo
-👉 
 
 
 ## 🛠️ Tech Stack
