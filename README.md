@@ -3,7 +3,7 @@
 A next-generation real-time messaging application featuring dynamic **Generative UI** and comprehensive conversational sentiment intelligence.
 
 ## 🚀 Live Demo
-👉 **[Click Here to View Live Dashboard](https://netlify.app)**
+👉 **[Click Here to View Live Dashboard]([https://stately-baklava-0bc4a1.netlify.app/])**
 
 
 ## 🛠️ Tech Stack
