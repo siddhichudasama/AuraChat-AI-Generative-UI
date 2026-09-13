@@ -18,6 +18,7 @@ export default defineConfig(async ({ mode }) => {
   }
 
   return {
+    base: '/AuraChat-AI-Generative-UI/', // <-- Yeh line aapke blank issue ko fixed karegi
     plugins,
     envPrefix: ['VITE_', 'NEXT_PUBLIC_'],
     define: processEnvDefines,
